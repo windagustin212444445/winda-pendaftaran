@@ -1,0 +1,96 @@
+body {
+	/*min-height: 3000px;*/
+}
+
+.bg-nav {
+	background: #800000;
+}
+
+.bg-nav .navbar-nav a.nav-link {
+	color: #fff;
+	font-weight: 500;
+}
+
+.bg-nav .navbar-nav a.nav-link:hover {
+	color : var(--bs-yellow);
+}
+
+.navbar-brand img {
+	width: 80px;
+}
+
+.main-jumbotron {
+	background-color: #DAA520;
+}
+
+/*KOLABORASI*/
+h2.judul::after{
+	border-bottom: 10px solid  #800000 ;
+	width: 200px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	content: "";
+	border-radius: 100px;
+}
+
+.kolaborasi img{
+	max-height: 200px;
+	max-width: 180px;
+}
+
+/*KEPERCAYAAN*/
+.kepercayaan {
+	background-color:  #800000;
+	color: var(--bs-white);
+}
+
+/*CARD*/
+.blog{
+	background-color:  #800000;
+}
+
+.blog a {
+	text-decoration: none; //untuk menghilangkan garis bawah
+}
+
+.blog a:hover{
+	color:  #800000 ;	
+}
+
+.blog-info{
+	color: grey;
+	position: relative;
+}
+
+.blog .blog-info img{
+	width: 50px;
+	border-radius: 100%;
+	float: left;
+}
+
+.blog-info a{
+	margin-left: 10px;
+}
+
+.blog-info span{
+	margin-left: 15px;
+	font-size: 12px;
+}
+
+/*LINKS*/
+.links li a{
+	color: #fff;
+	
+}
+
+.links li a:hover{
+	color: #DAA520;
+	transition: 0.5s;
+}
+
+/*COPYRIGHT*/
+.copyright a{
+	text-decoration: none;
+}
+
